@@ -1,0 +1,136 @@
+.segunda-chamada{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10% 0;
+}
+
+.segunda-chamada_conteudo{
+    width: 50%;
+}
+
+.segunda-chamada_conteudo_texto{
+    padding-bottom: 30px;
+}
+
+.segunda-chamada_conteudo_texto h1{
+    font-size: 36px;
+    margin-bottom: 26px;
+}
+
+.segunda-chamada_conteudo_texto p{
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
+.segunda-chamada_conteudo_texto a{
+    display: flex;
+    align-items: center;
+    color: #429585;
+}
+
+.segunda-chamada_conteudo_bloco{
+    width: 300px;
+    box-shadow: 2px 2px 15px 5px #dfdfdf;
+    border: 1px solid #f0eff4;
+    padding: 25px 35px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 15px;
+    border-radius: 15px;
+}
+
+.segunda-chamada_conteudo_bloco .bloco-texto-principal{
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.segunda-chamada_conteudo_bloco_perfil{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.segunda-chamada_conteudo_bloco .perfil-avatar{
+    border-radius: 50%;
+    width: 20%;
+}
+
+.segunda-chamada_conteudo_bloco_perfil_info h3{
+    font-size: 16px;
+}
+
+.segunda-chamada_conteudo_bloco_perfil_info p{
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.segunda-chamada_banner{
+    width: 50%;
+    text-align: right;
+}
+
+.segunda-chamada_banner img{
+    width: 90%;
+}
+
+@media (max-width:425px){
+    .segunda-chamada{
+        flex-direction: column-reverse;
+    }
+
+    .segunda-chamada_banner{
+        width: 100%;
+        text-align: center;
+        padding: 15% 0;
+    }
+
+    .segunda-chamada_banner img{
+        width: 100%;
+    }
+
+    .segunda-chamada_conteudo{
+        width: 100%;
+        text-align: center;
+    }    
+    
+    .segunda-chamada_conteudo_texto{
+        text-align: center;
+    }
+
+    .segunda-chamada_conteudo_texto h1{
+        font-size: 18px;
+    }
+
+    .segunda-chamada_conteudo_texto p{
+        text-align: left;
+    }
+
+    .segunda-chamada_conteudo_texto a{
+        justify-content: center;
+    }
+    
+    .segunda-chamada_conteudo_bloco .bloco-texto-principal{
+        text-align: left;
+        font-size: 14px;
+    }
+
+    .segunda-chamada_conteudo_bloco_perfil_info{
+        text-align: left;
+    }
+
+    .segunda-chamada_conteudo_bloco_perfil .perfil-avatar{
+        width: 10%;
+    }
+
+    .segunda-chamada_conteudo_bloco_perfil_info h3{
+        font-size: 13px;
+    }
+
+    .segunda-chamada_conteudo_bloco_perfil_info p{
+        font-size: 12px;
+    }
+
+
+}

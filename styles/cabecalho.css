@@ -1,0 +1,32 @@
+.cabecalho{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4% 0;
+}
+
+.cabecalho_logo img{
+    width: 100%;
+}
+
+.cabecalho_menu ul{
+    display: flex;
+    column-gap: 30px;
+    list-style: none;
+}
+
+.cabecalho_menu ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+@media (max-width:425px){
+    .cabecalho_logo img{
+        width: 50%;
+    }
+
+    .cabecalho_menu ul{
+        column-gap: 20px;
+    }
+}
